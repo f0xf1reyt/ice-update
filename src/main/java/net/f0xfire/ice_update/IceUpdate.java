@@ -1,5 +1,6 @@
 package net.f0xfire.ice_update;
 
+import net.f0xfire.ice_update.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -22,6 +23,10 @@ public class IceUpdate implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("loading");
+
+		ModItems.registerModItems();
+
+		LOGGER.info("loaded");
 	}
 
 	public static Identifier id(String path) {

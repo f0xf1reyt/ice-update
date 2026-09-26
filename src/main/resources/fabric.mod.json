@@ -3,12 +3,12 @@
 	"id": "ice-update",
 	"version": "${version}",
 	"name": "ice update",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "the ice update, implemented all wrong",
 	"authors": [
-		"Me!"
+		"F0xFireYT"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "idk",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",

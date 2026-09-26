@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "ice-update",
+	"version": "${version}",
+	"name": "ice update",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ice-update/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.f0xfire.ice_update.IceUpdate"
+		],
+		"fabric-datagen": [
+			"net.f0xfire.ice_update.IceUpdateDataGenerator"
+		]
+	},
+	"mixins": [
+		"ice-update.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

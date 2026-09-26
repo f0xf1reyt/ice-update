@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "idk",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/f0xf1reyt/ice-update"
 	},
-	"license": "CC0-1.0",
+	"license": "just give credit? idk",
 	"icon": "assets/ice-update/icon.png",
 	"environment": "*",
 	"entrypoints": {

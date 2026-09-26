@@ -11,10 +11,11 @@ import java.util.function.Function;
 
 public class ModItems {
 
+    public static final Item ICEBALL = registerItem("iceball", Item::new);
+
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(IceUpdate.MOD_ID, name), function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(IceUpdate.MOD_ID, name)))));
     }
-
     public static void registerModItems(){
         IceUpdate.LOGGER.info("registering items");
     }
